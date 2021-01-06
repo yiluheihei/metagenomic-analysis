@@ -4,11 +4,11 @@ personal metagenomic analysis tools
 
 ## General sources
 
-### :book: Papers
+### :book: Reviews 
 
 * [Best practices for analysing microbiomes](https://doi.org/10.1038/s41579-018-0029-9)
 * [Current challenges and best-practice protocols for microbiome analysis](https://doi.org/10.1093/bib/bbz155)
-
+* [Shotgun metagenomics, from sampling to analysis](https://doi.org/10.1038/nbt.3935).
 
 ## Normalization and differential analysis
 
@@ -45,6 +45,8 @@ personal metagenomic analysis tools
   [software: metaGEM](https://github.com/franciscozorrilla/metaGEM), a 
   Snakemake pipeline for the generation of MAGs, reconstruction of GEMs, and 
   simulation of cross-feeding interactions within microbial communities.
+* [moped - A Python package for metabolic modelling and topological 
+  analysis.](https://www.biorxiv.org/content/10.1101/2020.12.04.411512v1)
 
 ## Interactions in microbial communities
 
@@ -54,5 +56,7 @@ personal metagenomic analysis tools
   microbial communities](https://doi.org/10.1073/pnas.1421834112). 
   [software: smetana](https://github.com/cdanielmachado/smetana), a tool to 
   analyse interactions in microbial communities.
+* [paper: MMinte, an application for predicting metabolic interactions 
+  among the microbial species in a community](https://doi.org/10.1186/s12859-016-1230-3). [software: MMinte](https://github.com/mendessoares/MMinte).
 
 ## Ecological network modeling

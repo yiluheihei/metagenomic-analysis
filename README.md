@@ -25,11 +25,12 @@ personal metagenomic analysis tools
 
 ### :hammer_and_wrench: Softwares
 
-* DESeq2
-* edgeR
-* metagenomeSeq
-* ANOCOM
-* LEfSe
+* LEfSe, [Metagenomic biomarker discovery and explanation](https://doi.org/10.1186/gb-2011-12-6-r60)
+* DESeq2, [Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2](https://doi.org/10.1186/s13059-014-0550-8)
+* edgeR, [edgeR: a Bioconductor package for differential expression analysis of digital gene expression data](https://doi.org/10.1093/bioinformatics/btp616)
+* metagenomeSeq, [Differential abundance analysis for microbial marker-gene surveys](https://doi.org/10.1038/nmeth.2658)
+* ANCOM, [Analysis of composition of microbiomes: a novel method for studying microbial composition](https://www.tandfonline.com/doi/full/10.3402/mehd.v26.27663)
+* ANCOMBC, [Analysis of compositions of microbiomes with bias correction](https://www.nature.com/articles/s41467-020-17041-7)
 
 ## Metabolic network modeling
 

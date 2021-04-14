@@ -7,8 +7,23 @@ personal metagenomic analysis tools
 ### :book: Reviews 
 
 * [Best practices for analysing microbiomes](https://doi.org/10.1038/s41579-018-0029-9)
-* [Current challenges and best-practice protocols for microbiome analysis](https://doi.org/10.1093/bib/bbz155)
+* [Current challenges and best-practice protocols for microbiome 
+  analysis](https://doi.org/10.1093/bib/bbz155)
 * [Shotgun metagenomics, from sampling to analysis](https://doi.org/10.1038/nbt.3935).
+
+## Data quality control
+
+* [paper: Quality-filtering vastly improves diversity estimates from Illumina amplicon 
+  sequencing](https://www.nature.com/articles/nmeth.2276), "For datasets where a mock 
+  community is not included for calibration, we recommend the conservative threshold 
+  of (c = 0.005%). c is the OTU abundance threshold". 
+  
+  See also in [qiime forum: feature filter](https://forum.qiime2.org/t/filter-features/1493/3): 
+  The abundance filtering recommendation was specific to the OTU picking pipelines in 
+  QIIME1 (but would probably still apply if you use the OTU picking pipelines in QIIME2),
+  and is not tested in conjunction with dada2 or deblur, and are most likely unnecessary 
+  (based on the results reported in the original papers for dada2 and deblur) or even 
+  conflicting. 
 
 ## Normalization and differential analysis
 
@@ -25,15 +40,27 @@ personal metagenomic analysis tools
 
 ### :hammer_and_wrench: Softwares
 
-* LEfSe, [Metagenomic biomarker discovery and explanation](https://doi.org/10.1186/gb-2011-12-6-r60)
-* DESeq2, [Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2](https://doi.org/10.1186/s13059-014-0550-8)
-* edgeR, [edgeR: a Bioconductor package for differential expression analysis of digital gene expression data](https://doi.org/10.1093/bioinformatics/btp616)
-* metagenomeSeq, [Differential abundance analysis for microbial marker-gene surveys](https://doi.org/10.1038/nmeth.2658)
-* ANCOM, [Analysis of composition of microbiomes: a novel method for studying microbial composition](https://www.tandfonline.com/doi/full/10.3402/mehd.v26.27663)
-* ANCOMBC, [Analysis of compositions of microbiomes with bias correction](https://www.nature.com/articles/s41467-020-17041-7)
+* LEfSe, [Metagenomic biomarker discovery and 
+  explanation](https://doi.org/10.1186/gb-2011-12-6-r60)
+* DESeq2, [Moderated estimation of fold change and dispersion for 
+  RNA-seq data with DESeq2](https://doi.org/10.1186/s13059-014-0550-8)
+* edgeR, [edgeR: a Bioconductor package for differential expression 
+  analysis of digital gene expression data](https://doi.org/10.1093/bioinformatics/btp616)
+* metagenomeSeq, [Differential abundance analysis for microbial 
+  marker-gene surveys](https://doi.org/10.1038/nmeth.2658)
+* ANCOM, [Analysis of composition of microbiomes: a novel method for studying 
+  microbial composition](https://www.tandfonline.com/doi/full/10.3402/mehd.v26.27663)
+* ANCOMBC, [Analysis of compositions of microbiomes with bias 
+  correction](https://www.nature.com/articles/s41467-020-17041-7)
 
 ## Metabolic network modeling
 
+* [review paper: Reconstructing organisms in silico: genome-scale models and their 
+  emerging applications](https://www.nature.com/articles/s41579-020-00440-4),
+  review on overrall development of genome-scale models and their applications,
+  and the emerging areas in genome-scale modeling of microbioal phenotypes.
+* [review paper: Current status and applications of genome-scale metabolic 
+  models](https://doi.org/10.1186/s13059-019-1730-3)
 * [paper: CoBAMP: a Python framework for metabolic pathway analysis in 
   constraint-based models](https://doi.org/10.1093/bioinformatics/btz598).
   [software: CoBAMP](https://github.com/BioSystemsUM/cobamp). 
@@ -51,9 +78,16 @@ personal metagenomic analysis tools
 * [MICOM: Metagenome-Scale Modeling To Infer Metabolic Interactions in the 
   Gut Microbiota.](https://msystems.asm.org/content/5/1/e00606-19.abstract)
 
+## Applications of genome-scale metabolic modeling
+
+* [paper: Using Genome-scale Models to Predict Biological 
+  Capabilities](https://www.cell.com/cell/abstract/S0092-8674(15)00568-1)
+* [paper: Understanding the host-microbe interactions using metabolic 
+  modeling](https://doi.org/10.1186/s40168-020-00955-1)
+
 ## Interactions in microbial communities
 
-* [paper: Microbial interactions: from networks to 
+* [review paper: Microbial interactions: from networks to 
   models](https://www.nature.com/articles/nrmicro2832)
 * [paper: Metabolic dependencies drive species co-occurrence in diverse 
   microbial communities](https://doi.org/10.1073/pnas.1421834112). 
@@ -61,6 +95,11 @@ personal metagenomic analysis tools
   analyse interactions in microbial communities.
 * [paper: MMinte, an application for predicting metabolic interactions 
   among the microbial species in a community](https://doi.org/10.1186/s12859-016-1230-3).
+* [paper, algorithm: Ecology-guided prediction of cross-feeding interactions 
+  in the human gut microbiome](https://www.nature.com/articles/s41467-021-21586-6),
+  GutCP:  a new ecology-guided method to infer and predict cross-feeding interactions 
+  in the human gut microbiome. It can also be used to pridict the metabolomic composition
+  based on a original cross-feeding network (in which nodes are metabolites or microbes).
 
 ## Ecological network modeling
 

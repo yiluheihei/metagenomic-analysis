@@ -52,6 +52,11 @@ personal metagenomic analysis tools
   microbial composition](https://www.tandfonline.com/doi/full/10.3402/mehd.v26.27663)
 * ANCOMBC, [Analysis of compositions of microbiomes with bias 
   correction](https://www.nature.com/articles/s41467-020-17041-7)
+* [animalcules](https://github.com/compbiomed/animalcules), **Note** this R package is 
+  not only for differential analysis, it is a comprehensive analysis toolkit for 
+  microbiome analysis workflow. Specifically, it supports biomarker identification by 
+  training a logistic regression or random forest model with cross-validated biomarker 
+  performance evaluation.
 
 ## Metabolic network modeling
 

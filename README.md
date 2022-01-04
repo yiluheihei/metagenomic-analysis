@@ -10,6 +10,7 @@ personal metagenomic analysis tools
 * [Current challenges and best-practice protocols for microbiome 
   analysis](https://doi.org/10.1093/bib/bbz155)
 * [Shotgun metagenomics, from sampling to analysis](https://doi.org/10.1038/nbt.3935).
+* [A practical guide to amplicon and metagenomic analysis of microbiome data](https://doi.org/10.1007/s13238-020-00724-8)
 
 ## Data quality control
 
